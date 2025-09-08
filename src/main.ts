@@ -27,7 +27,11 @@ async function main(): Promise<void> {
 
     if (!data.length) {
       console.log("User not found or have no activities")
+
+      return;
     }
+
+
 
     data.forEach(data => {
 
